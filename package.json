@@ -1,0 +1,36 @@
+{
+  "name": "google-sheets-function-list",
+  "version": "1.0.0",
+  "description": "A list of all google sheets functions, what they do and examples of how to use them",
+  "main": "function-data.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "get-data": "ts-node ./scripts/get-data.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattlewis92/google-sheets-function-list.git"
+  },
+  "keywords": [
+    "google",
+    "sheets",
+    "functions",
+    "formula"
+  ],
+  "author": "Matt Lewis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattlewis92/google-sheets-function-list/issues"
+  },
+  "homepage": "https://github.com/mattlewis92/google-sheets-function-list#readme",
+  "devDependencies": {
+    "p-limit": "^2.2.2",
+    "prettier": "^2.0.2",
+    "scrape-it": "^5.2.3",
+    "ts-node": "^8.8.1",
+    "typescript": "^3.8.3"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
